@@ -1,0 +1,57 @@
+{
+  "name": "PatternData Extraction-Copy",
+  "projectId": "7578c114-24e9-4133-a586-998557b21265",
+  "description": "Extracting data in action: patterns\r\n\r\nNow that you've got the hang of the Table Extraction tool, let's see how we can extract data organized in patterns! For this, we'll head over to Corey, a Content Marketing Specialist. They have to analyze the technical content a company has published up to this point in order to evaluate and optimize the content strategy.\r\n\r\nThe content is available on the Whitepapers webpage(opens in a new tab) of the company, in article form: each post has a title, a desc",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.ComplexScenarios.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.Presentations.Activities": "[1.14.1]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]",
+    "UiPath.Word.Activities": "[1.20.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandlerX.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Business",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
